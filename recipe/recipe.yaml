@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: agent-memory-guard
-  version: "0.3.2"
+  version: "0.3.3"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/agent_memory_guard-${{ version }}.tar.gz
-  sha256: 8e2506ce0f056c413f08f4e1bc52217af69795a28b6156d59388edda710d75d4
+  sha256: eafe9dcbcf5aef982199efb59702e51f5d3db37be99f0614b0b01cb03c4f5fb8
 
 build:
   number: 0
